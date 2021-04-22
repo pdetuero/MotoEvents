@@ -1,0 +1,176 @@
+.list-group-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+.list-group-item:last-child, .list-group-item:first-child{
+    border-radius: unset;
+}
+
+.col {
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+
+.edit-btn-div {
+    display: flex;
+    justify-content: flex-end;
+
+}
+img.heart{
+    display: none;
+}
+
+.modal-body {
+    height: 650px;
+}
+
+.modal-content {
+    opacity: 0.9;
+}
+
+.events-col{
+    justify-content: center;
+    display: flex;
+}
+
+h3{
+    text-align: center;
+}
+
+.name-event{
+    margin-top: 10px;
+}
+.name-moto{
+    margin: 20px 0;
+}
+
+/* Col */
+
+.card-motorbike > p{
+    text-align: center;
+}
+
+/* List */
+
+.scroll-x{
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 300px;
+}
+.transparent{
+    background: transparent;
+    
+}
+
+.center{
+    justify-content: center;
+    padding: 0;
+    margin: 10px auto;
+    opacity: 0.5;
+    width: 40%;
+}
+
+.center:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* ROW */
+
+.profile-1{
+    margin-top: 50px;
+}
+
+/* Imagenes */
+img.heart{
+    display: none;
+}
+
+.usermotorbike-img{
+    width: 200px;
+    display: block;
+    margin: auto;
+    position: relative;
+    left: -300%;
+
+}
+
+.special:hover .usermotorbike-img{
+    left: 0;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+}
+
+.event-img{
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.img-event{
+    width: 150px;
+    text-align: center;
+}
+
+.friend-motorbike{
+    width: 40px;
+    margin-left: 5px;
+    display: none;
+}
+
+/* Tamaños de letras */
+
+.style-friend{
+    font-size: 24px;
+}
+
+.style-events{
+    font-size: 22px;
+    
+}
+
+.style-p{
+    font-size: 24px;
+    color: #293133;
+    margin-top: 20px
+}
+
+
+@media (min-width: 800px){
+    h3:hover > .heart{
+        display: block;
+        width: 30px; 
+      }
+      .usermotorbike-img{
+        width: 250px;
+    }
+    .style-events{
+        font-size: 40px;
+    }
+    .style-p{
+        font-size: 32px;
+    }
+    .style-friend{
+        font-size: 30px;
+    }
+}
+
+
+@media (min-width: 1000px){
+
+    .img-event{
+        width: 300px;
+    }
+
+    h3:hover > .heart{
+        display: block;
+        width: 30px; 
+      }
+      .usermotorbike-img{
+        width: 300px;
+    }
+}
+

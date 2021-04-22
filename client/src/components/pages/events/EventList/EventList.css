@@ -1,0 +1,46 @@
+.events-page{
+    
+    align-items: center;
+}
+
+.create-btn{
+    background-color: #f77f00;
+    border: none;
+    margin-bottom: 25px;
+}
+
+.create-btn:hover, .create-btn:focus  {
+    color: #fff;
+    background-color: #f77f00;
+    border-color: #f77f00;
+    box-shadow: none;
+    
+}
+
+.search-bar {
+    margin-top: 2rem;
+}
+
+.spinner{
+    position: fixed;
+    top: 50%;
+    left: 45%;
+}
+
+.eventlist-top-row{
+    display: flex;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.active-events-col{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.create-event-col{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}

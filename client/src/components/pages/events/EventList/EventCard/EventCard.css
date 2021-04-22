@@ -1,0 +1,42 @@
+.card-buttons {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.card{
+    background-color: #f8f9fa;
+}
+
+.join-btn {
+    background-color: #f77f00;
+    border-color: #f77f00;
+    color: white
+}
+
+.card-footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #e9ecef;
+}
+
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-card{
+    width: 22rem;
+    margin-bottom: 20px;
+    transition: width 0.3s;
+}
+
+.card-col{
+    display: flex;
+    justify-content: center;
+}
+
+.card-col:hover .event-card{
+    width: 24rem;
+    transition-timing-function: ease-in-out;
+}
